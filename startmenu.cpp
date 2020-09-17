@@ -16,7 +16,7 @@ startmenu::~startmenu()
 
 void startmenu::Startmenu_Init()
 {
-    this->resize(800, 150);
+    this->resize(1000, 150);
     QFont ft;
     ft.setPointSize(14);
 

@@ -16,10 +16,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::build_tabwidget()
 {
-    tw = new QTabWidget(this);
-    tw->setTabsClosable(true);
-    tw->resize(500, 800);
     fc = new Form_client();
-//    tw->addTab(fc, "test1");
     fc->show();
 }

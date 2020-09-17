@@ -32,5 +32,6 @@
         <file>icon/pause.png</file>
         <file>icon/run.png</file>
         <file>icon/stop.png</file>
+        <file>icon/icon_search.png</file>
     </qresource>
 </RCC>

@@ -16,27 +16,36 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    filmenu.cpp \
     form_client.cpp \
     main.cpp \
     mainwindow.cpp \
+    managemenu.cpp \
     recordmenu.cpp \
     repmenu.cpp \
-    startmenu.cpp
+    startmenu.cpp \
+    usermenu.cpp
 
 HEADERS += \
+    filmenu.h \
     form_client.h \
     mainwindow.h \
+    managemenu.h \
     recordmenu.h \
     repmenu.h \
     startmenu.h \
+    usermenu.h \
     widget_headers.h
 
 FORMS += \
+    filmenu.ui \
     form_client.ui \
     mainwindow.ui \
+    managemenu.ui \
     recordmenu.ui \
     repmenu.ui \
-    startmenu.ui
+    startmenu.ui \
+    usermenu.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

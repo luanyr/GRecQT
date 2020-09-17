@@ -16,6 +16,7 @@ recordmenu::~recordmenu()
 
 void recordmenu::Recordmenu_Init()
 {
+    this->resize(1000, 150);
     QFont ft;
     ft.setPointSize(10);
     this->resize(800, 150);

@@ -9,6 +9,8 @@
 #include <QToolBox>
 #include <QLabel>
 #include "startmenu.h"
+#include "repmenu.h"
+#include "recordmenu.h"
 namespace Ui {
 class Form_client;
 }
@@ -24,6 +26,8 @@ public:
 private:
     Ui::Form_client *ui;
     startmenu *sm;
+    repmenu *rpm;
+    recordmenu *rcdm;
     /*start menu*/
     QToolBox *TBmenu;
 
