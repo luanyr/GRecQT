@@ -8,6 +8,7 @@
 #include <QComboBox>
 #include <QToolButton>
 #include <QDateTimeEdit>
+#include <QTabWidget>
 #include <QLine>
 #include <QStringList>
 #endif // WIDGET_HEADERS_H

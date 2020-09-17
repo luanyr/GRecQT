@@ -88,7 +88,7 @@ void repmenu::repmenu_Init()
     QIcon PBchktypeSelReplayicon;
     PBchktypeSelReplayicon.addFile(":/icon/icon/ygg.png");
     PBchktypeSelReplay = new QPushButton(this);
-    PBchktypeSelReplay->resize(105, 40);
+    PBchktypeSelReplay->resize(115, 40);
     PBchktypeSelReplay->setFont(ft);
     PBchktypeSelReplay->setText(tr("类型约束"));
     //PBchkchnselreplay->setStyleSheet("background-color:rgba(0,0,0,0)");
@@ -99,7 +99,7 @@ void repmenu::repmenu_Init()
     QIcon type1icon;
     type1icon.addFile(":/icon/icon/1.png");
     PBtype1 = new QPushButton(this);
-    PBtype1->resize(50, 30);
+    PBtype1->resize(55, 30);
     PBtype1->setText(tr("类型1"));
     PBtype1->setIcon(type1icon);
     PBtype1->setIconSize(QSize(15, 15));
@@ -108,16 +108,16 @@ void repmenu::repmenu_Init()
     QIcon type2icon;
     type2icon.addFile(":/icon/icon/2.png");
     PBtype2 = new QPushButton(this);
-    PBtype2->resize(50, 30);
+    PBtype2->resize(55, 30);
     PBtype2->setText(tr("类型2"));
     PBtype2->setIcon(type2icon);
     PBtype2->setIconSize(QSize(15, 15));
-    PBtype2->move(435, 45);
+    PBtype2->move(440, 45);
 
     QIcon type3icon;
     type3icon.addFile(":/icon/icon/3.png");
     PBtype3 = new QPushButton(this);
-    PBtype3->resize(50, 30);
+    PBtype3->resize(55, 30);
     PBtype3->setText(tr("类型3"));
     PBtype3->setIcon(type3icon);
     PBtype3->setIconSize(QSize(15, 15));
@@ -126,11 +126,11 @@ void repmenu::repmenu_Init()
     QIcon type4icon;
     type4icon.addFile(":/icon/icon/4.png");
     PBtype4 = new QPushButton(this);
-    PBtype4->resize(50, 30);
+    PBtype4->resize(55, 30);
     PBtype4->setText(tr("类型4"));
     PBtype4->setIcon(type4icon);
     PBtype4->setIconSize(QSize(15, 15));
-    PBtype4->move(435, 90);
+    PBtype4->move(440, 90);
 
     QIcon PBchkChanSelReplayicon;
     PBchkChanSelReplayicon.addFile(":/icon/icon/ygg.png");

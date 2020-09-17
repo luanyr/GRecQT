@@ -23,7 +23,9 @@ SOURCES += \
     managemenu.cpp \
     recordmenu.cpp \
     repmenu.cpp \
+    specfymenu.cpp \
     startmenu.cpp \
+    tunnelmenu.cpp \
     usermenu.cpp
 
 HEADERS += \
@@ -33,7 +35,9 @@ HEADERS += \
     managemenu.h \
     recordmenu.h \
     repmenu.h \
+    specfymenu.h \
     startmenu.h \
+    tunnelmenu.h \
     usermenu.h \
     widget_headers.h
 
@@ -44,7 +48,9 @@ FORMS += \
     managemenu.ui \
     recordmenu.ui \
     repmenu.ui \
+    specfymenu.ui \
     startmenu.ui \
+    tunnelmenu.ui \
     usermenu.ui
 
 # Default rules for deployment.

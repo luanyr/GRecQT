@@ -1,16 +1,16 @@
 #ifndef FORM_CLIENT_H
 #define FORM_CLIENT_H
-#include <QFont>
 #include <QWidget>
-#include <QPushButton>
-#include <QLineEdit>
-#include <QIcon>
-#include <QGroupBox>
 #include <QToolBox>
-#include <QLabel>
 #include "startmenu.h"
 #include "repmenu.h"
 #include "recordmenu.h"
+#include "filmenu.h"
+#include "managemenu.h"
+#include "managemenu.h"
+#include "usermenu.h"
+#include "tunnelmenu.h"
+#include "specfymenu.h"
 namespace Ui {
 class Form_client;
 }
@@ -25,12 +25,17 @@ public:
 
 private:
     Ui::Form_client *ui;
+    /*menu*/
     startmenu *sm;
     repmenu *rpm;
     recordmenu *rcdm;
+    filmenu *fm;
+    managemenu *mgm;
+    usermenu *um;
+    tunnelmenu *tm;
+    specfymenu *spm;
     /*start menu*/
     QToolBox *TBmenu;
-
     QWidget *testwidget;
     QWidget *WGTstartmenu;
     void Form_Init();
