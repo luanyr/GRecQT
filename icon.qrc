@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>icon/addsth.png</file>
+        <file>icon/addusr.png</file>
+        <file>icon/cha.png</file>
+        <file>icon/end.png</file>
+        <file>icon/gantanhao.png</file>
+        <file>icon/gou.png</file>
+        <file>icon/line.png</file>
+        <file>icon/link.png</file>
+        <file>icon/lock.png</file>
+        <file>icon/mang.png</file>
+        <file>icon/out.png</file>
+        <file>icon/qianshou.png</file>
+        <file>icon/refresh.png</file>
+        <file>icon/renz.png</file>
+        <file>icon/save.png</file>
+        <file>icon/time.png</file>
+        <file>icon/top.png</file>
+        <file>icon/trash.png</file>
+        <file>icon/unlock.png</file>
+        <file>icon/usr.png</file>
+        <file>icon/yg.png</file>
+        <file>icon/ygg.png</file>
+        <file>icon/yj.png</file>
+        <file>icon/yjj.png</file>
+        <file>icon/yx.png</file>
+        <file>icon/1.png</file>
+        <file>icon/2.png</file>
+        <file>icon/3.png</file>
+        <file>icon/4.png</file>
+        <file>icon/pause.png</file>
+        <file>icon/run.png</file>
+        <file>icon/stop.png</file>
+    </qresource>
+</RCC>
