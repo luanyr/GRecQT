@@ -37,6 +37,7 @@ private:
     /*start menu*/
     QToolBox *TBmenu;
     void Startmenu_Init();
+    void 
 };
 
 #endif // FORM_CLIENT_H
